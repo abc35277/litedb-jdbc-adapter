@@ -1,0 +1,22 @@
+# Build outputs
+dist/
+release/
+src/bridge/LiteDbJdbc.Bridge/bin/
+src/bridge/LiteDbJdbc.Bridge/obj/
+src/tools/*/bin/
+src/tools/*/obj/
+
+# Test databases
+*.litedb
+*.db
+
+# Local review/scratch artifacts
+litedb-review-tmp/
+
+# Tool state
+.mimosa/
+
+# IDE
+.vs/
+.idea/
+*.user

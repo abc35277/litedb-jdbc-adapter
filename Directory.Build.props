@@ -1,0 +1,11 @@
+<Project>
+  <!--
+    Single source of truth for the release version (FIX-405). The .NET bridge inherits
+    this automatically (SDK-style projects walk up to Directory.Build.props); the
+    PowerShell scripts read it from here, and the Java driver reads the jar manifest's
+    Implementation-Version which build.ps1 fills from the same value.
+  -->
+  <PropertyGroup>
+    <Version>1.3.2</Version>
+  </PropertyGroup>
+</Project>

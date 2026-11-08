@@ -1,0 +1,5 @@
+INSERT INTO typed VALUES {_id: ?, name: ?, moment: ?, amount: ?, data: ?}
+INSERT INTO bigdec VALUES {_id: 1, v: ?}
+DELETE FROM typed WHERE _id = ?
+DELETE typed WHERE _id = 1
+DELETE bigdec WHERE _id = 1

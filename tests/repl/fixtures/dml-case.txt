@@ -1,0 +1,2 @@
+INSERT INTO casetest VALUES {_id: 1, Name: 'A', name: 'B'}
+DELETE casetest WHERE _id = 1

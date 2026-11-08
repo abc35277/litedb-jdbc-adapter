@@ -1,0 +1,2 @@
+INSERT INTO biglong VALUES {_id: ?, v: ?}
+DELETE biglong WHERE _id = 1
